@@ -38,24 +38,28 @@ footer {
 
 .memediv {
     position: relative;
-    margin-bottom: 300px;
-    max-width: 300px;
-    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .memetext {
-    position: inherit;
-    top:280px;
-    left:270px;
+    position: relative;
+    margin-bottom:0px;
     font-weight: bolder;
     font-size: 16pt;
-    margin-top: 10px;
+    margin-top: 0px;
     color:white;
+    max-width: 300px;
+    
 }
 .memeimg {
+    margin: bottom 0px;
     border: 5px solid rgb(54, 2, 2);
-    position:absolute;
-    left:300px;
-    max-width: auto;
     max-height: 300px;
+    max-width: 180px;
 
+}
+.memeimdiv {
+    position:relative;
 }  
